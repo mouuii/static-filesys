@@ -1,4 +1,7 @@
 build:
 	go build ./...
-run : build
+run: build
 	 ./cmd
+clean:
+	rm ./cmd
+
